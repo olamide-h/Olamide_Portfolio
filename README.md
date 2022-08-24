@@ -6,7 +6,7 @@ Machine learning to predict which old games should be remastered and released. U
 - Binary Classifier on weather games should be remastered or not
 - Ran models such as Naive Beyes, Random Tree Classifier and Decision Tree for feature importance.
 - Achieving a 97% score on F1 score using logistic regression.
-![](/images/video_games%20results.png)
+![](https://github.com/olamide-h/Olamide_Portfolio/blob/main/images/video_games%20results.png)
 
 # [Project 2: Spotify’s Movie Division Algorithm](https://github.com/DaraNadine/Project_4_RecSystems)
 Built a recommendation system for hypothetical expansion of Spotify into a movie streaming service 
