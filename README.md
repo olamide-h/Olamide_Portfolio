@@ -1,13 +1,23 @@
 # Olamide_Portfolio
 Olamide Olayinka Data Science Portfolio 
 
-# Project 1: Video Game Remastering Classifier 
-The Gaming industry is a huge indutry with it's marjet sizd currently valued at $86 Billion in just the alone. This consits of the several gaming platforms and consoles accesible today. Platforms/Consoles such as the Playstation( PS5 latest model), Xbox One(latest model) or the Nintendo Switch as well as PC games. All coming from their respective publishing companies such as Sony, Microsoft, Nintendo and so on. As the industry continues to grow and technology evloves, new systems tend to be developed, with better graphics, better frame rates and more ineratice capabilities for the users. While ew games tend to be developed, many users tend to desire playing the games they enjoyed growing up that may be from older systems or froma time when technology was limited. Where the graphics were limited and maybe not in 4k resoluton as many games are now. Thus introducing remastering and remaking these games.
+# [Project 1: Video Game Remastering Classifier](https://github.com/olamide-h/Video-Game-Remastering-Classifier)
+Machine learning to predict which old games should be remastered and released. Using Bluepoint as a Stakeholder.
+- Binary Classifier on weather games should be remastered or not
+- Ran models such as Naive Beyes, Random Tree Classifier and Decision Tree for feature importance.
+- Achieving a 97% score on F1 score using logistic regression.
 
-# Project 2: Spotify’s Movie Division Algorithm
-Spotify is launching a new Movie Divison. We are contracted Data Scientist tasked with creating a reccomendation system for their new movie stream service. We want to compete with other streaming platforms such as Netflix, Hulu, Amazon Prime. Since they are new to the market, they want to ensure that their Reccomendation System is accurate and reliable. So we are building a model that reccomends the top 5 movies to a user based on their ratings on other movies. It can be hard as a user trying to sort out what to watch when given so many options. Many people have experience something refered to as "Streaming fatigue". That feeling of burnout when faced with so many choices when looking for original content to watch. So with our algorithm. We will address that.
 
-# Project 3: Churn at Flatiron Communications
-The stakeholder is Flatiron Communications. The stakeholder has approached us to find out how they can reduce churn with their company. So we are tasked with building a classifier to predict whether a customer will ("soon") stop doing business with our stakeholder. Optimize to reduce amount of money lost due to churn. This is a binary classification problem.
+# [Project 2: Spotify’s Movie Division Algorithm](https://github.com/DaraNadine/Project_4_RecSystems)
+Built a recommendation system for hypothetical expansion of Spotify into a movie streaming service 
+- Merged three csv- files sharing movieID column into one Pandas Dataframe
+- Utilized Surprise package to predict based on movieID what a user would rate a movie they have not watched 
+- Built a collaborative filtering model that returns top 5 ranked movies a user should watch 
 
-So what is the layout of the cellular market and what is “Churn”? There is currently massive competition between 6 major cellular providers. “Churn” is a jargon term that effectively means customer turnover. There is a major problem with churn within the industry as new cellular customers are arriving at an all time low and with an average Churn Rate 22% per year. 9 out of 10 customers have churned in the last 5 years with about 1/2 of that Churn being attributed to nonpayment. Given that 1 in 4 customers are churning each year, retaining those existing customers has never been more important.
+# [Project 3: Churn at Flatiron Communications](https://github.com/chris-helmerson/Cellular_Customer_Churn_Prediction)
+Built a binary classifier to predict whether a customer would churn a telecommunication company or not. 
+- Replaced Churn(‘Yes’,’No’) to Binary Values.  1= Churn , 0 = No Churn
+- Ran a DummyClassifier to establish a baseline model testing for recall score
+- Scaled and Smote Data to deal with unbalanced data
+- Built a Decision Tree Classifier Model and optimized it with GridSearchCV testing for Recall
+- Built a collaborative filtering model that returns top 5 ranked movies a user should watch 
